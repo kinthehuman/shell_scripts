@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+echo "primer_comando"

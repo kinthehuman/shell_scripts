@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+
+while true
+do
+echo "por favor no me mates"
+sleep 1
+done

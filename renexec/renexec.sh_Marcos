@@ -1,0 +1,33 @@
+#!/usr/bin/sh
+
+renombrar()
+case $1 in
+*.*)
+echo $1 "tiene extension: $2"
+;;
+*)
+echo $1 "no tienen extension: $2"
+;;
+esac
+
+directorios=find $1 -type "d"
+for i in $directorios
+do
+for j in ls
+do
+if [ ! -d ]
+then
+if [ -x ]
+then
+if [ $# -eq 2 ]
+renombrar $j $2
+else
+renombrar $j .exec
+fi
+fi
+fi
+done
+done
+
+
+
